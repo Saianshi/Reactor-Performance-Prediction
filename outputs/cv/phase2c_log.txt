@@ -1,0 +1,35 @@
+﻿
+====================================================================================
+LEVEL B REFIT WITH Ea BOUNDS WIDENED TO 10-500 kJ/mol
+====================================================================================
+    previous ceiling was 250 kJ/mol and Ea2 pinned there in all 10 folds
+    (sd exactly 0.0) -- so that value was a bound, not an estimate.
+
+          fold  0  train   8.692  test    1.971   Ea1=  42.0 Ea2= 258.0  gamma= +0.00
+          fold  1  train   8.619  test    4.032   Ea1=  42.3 Ea2= 256.1  gamma= +0.00
+          fold  2  train   8.491  test    6.150   Ea1=  41.3 Ea2= 261.2  gamma= +0.00
+          fold  3  train   8.245  test    8.962   Ea1=  41.0 Ea2= 252.2  gamma= +0.00
+          fold  4  train   6.917  test   19.635   Ea1=  40.4 Ea2= 350.4  gamma= +0.00
+          fold  5  train   7.038  test   25.480   Ea1=  45.7 Ea2= 273.3  gamma= +0.00
+          fold  6  train   7.618  test   13.298   Ea1=  43.0 Ea2= 266.8  gamma= +0.00
+          fold  7  train   8.676  test    2.522   Ea1=  42.4 Ea2= 259.2  gamma= +0.00
+          fold  8  train   8.359  test    7.635   Ea1=  41.6 Ea2= 269.7  gamma= +0.00
+          fold  9  train   8.267  test    8.678   Ea1=  43.5 Ea2= 245.5  gamma= +0.00
+    M0 beta const, gamma=0     k=5  train= 8.2685  CV=12.2059  AIC=  643.7   (470s)
+        Ea1=  42.29  Ea2= 259.83 kJ/mol   beta0=  3.054  n_flow=+0.0000  gamma= +0.000
+        all free parameters interior to their bounds  OK
+          fold  0  train  16.938  test   20.134   Ea1= 102.5 Ea2=  95.4  gamma= -6.95
+          fold  1  train     nan  test      nan   Ea1= 170.1 Ea2= 113.6  gamma=-17.37
+          fold  2  train  39.836  test   54.654   Ea1= 121.5 Ea2= 167.1  gamma=-52.03
+          fold  3  train  36.623  test      nan   Ea1=  91.7 Ea2= 146.8  gamma=-57.04
+          fold  4  train  42.496  test   36.291   Ea1= 127.6 Ea2= 170.2  gamma=-41.44
+          fold  5  train   5.124  test   14.765   Ea1=  49.7 Ea2= 303.0  gamma= -5.84
+          fold  6  train  44.634  test      nan   Ea1= 225.1 Ea2= 299.6  gamma=-36.29
+          fold  7  train   6.135  test    2.219   Ea1=  48.9 Ea2= 295.0  gamma= -6.97
+          fold  8  train   5.944  test    6.176   Ea1=  49.7 Ea2= 339.0  gamma= -7.84
+          fold  9  train   5.899  test    5.796   Ea1=  49.3 Ea2= 291.0  gamma= -7.34
+    M1 beta const, gamma free  k=6  train=17.0719  CV=    nan  AIC=  863.2   (570s)
+        Ea1=  24.59  Ea2=  98.36 kJ/mol   beta0=  2.936  n_flow=+0.0000  gamma= -2.251
+        all free parameters interior to their bounds  OK
+          fold  0  train   7.092  test    1.848   Ea1=  43.0 Ea2= 304.7  gamma= +0.00
+          fold  1  train   7.067  test    2.684   Ea1=  42.9 Ea2= 300.3  gamma= +0.00

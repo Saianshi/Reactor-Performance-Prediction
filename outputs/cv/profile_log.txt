@@ -1,0 +1,48 @@
+﻿================================================================================
+PROFILE LIKELIHOOD -- how well does the data pin each parameter?
+================================================================================
+
+  -- Ea2 --
+      Ea2 =    1.5e+05   best RMSE =   9.3108
+      Ea2 =      2e+05   best RMSE =   6.9221
+      Ea2 =    2.4e+05   best RMSE =   6.1317
+      Ea2 =    2.8e+05   best RMSE =   5.8763
+      Ea2 =    3.2e+05   best RMSE =   5.8868
+      Ea2 =    3.8e+05   best RMSE =   6.0613
+      Ea2 =    4.5e+05   best RMSE =   6.2667
+
+  -- Ea1 --
+      Ea1 =      3e+04   best RMSE =   7.7397
+      Ea1 =      4e+04   best RMSE =   6.2690
+      Ea1 =    4.5e+04   best RMSE =   5.9328
+      Ea1 =      5e+04   best RMSE =   5.8674
+      Ea1 =    5.5e+04   best RMSE =   6.0316
+      Ea1 =    6.5e+04   best RMSE =   6.7942
+      Ea1 =      8e+04   best RMSE =   8.2916
+
+  -- gamma --
+      gamma =        -14   best RMSE =   7.3900
+      gamma =        -10   best RMSE =   6.2180
+      gamma =         -7   best RMSE =   5.8838
+      gamma =         -4   best RMSE =   6.3310
+      gamma =         -2   best RMSE =   7.1479
+      gamma =          0   best RMSE =   8.2802
+      gamma =          2   best RMSE =   9.5836
+
+================================================================================
+IDENTIFIABILITY READ-OUT
+================================================================================
+
+    Ea2: best RMSE 5.8763 at 280 kJ/mol
+      values within 1% of best: [280, 320] kJ/mol
+      -> WELL IDENTIFIED
+
+    Ea1: best RMSE 5.8674 at 50 kJ/mol
+      values within 1% of best: [50, 50] kJ/mol
+      -> WELL IDENTIFIED
+
+    gamma: best RMSE 5.8838 at -7 K.L/mol
+      values within 1% of best: [-7, -7] K.L/mol
+      -> WELL IDENTIFIED
+
+    figure -> D:\1SM task\IIT khagpur\outputs\figures\04_profile_likelihood.png
