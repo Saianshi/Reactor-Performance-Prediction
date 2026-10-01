@@ -1,8 +1,10 @@
-## License
+## ⚠️ License
 
 © 2026 Saianshi Mohapatra. All rights reserved.
 
-This code is shared only so people can see my work. Please don't copy, reuse or redistribute it without asking me first. If you'd like to use any part of it, feel free to reach out at saianshimohapatraofficial@gmail.com.
+This repository and its code are here only for viewing. You are not allowed to copy, download, reuse or share any part of it without my permission.
+
+If you'd like to use this project or any part of it, please contact me at saianshimohapatraofficial@gmail.com.
 
 # Reactor Performance Prediction
 
