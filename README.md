@@ -1,3 +1,9 @@
+## License
+
+© 2026 Saianshi Mohapatra. All rights reserved.
+
+This code is shared only so people can see my work. Please don't copy, reuse or redistribute it without asking me first. If you'd like to use any part of it, feel free to reach out at saianshimohapatraofficial@gmail.com.
+
 # Reactor Performance Prediction
 
 An ML hackathon entry that predicts the yield of a non-isothermal plug-flow reactor running a series reaction A -> B -> C, given only 150 training rows. Instead of throwing a generic regressor at five raw columns, the model is built around an actual physics prior (Arrhenius kinetics fit to the data) and lets a Gaussian process learn only the small correction on top of it. With this few rows, that turned out to matter a lot.
